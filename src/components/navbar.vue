@@ -1,17 +1,17 @@
 <template>
-  <div class="hello">
-    <h1 id="light">{{ name }}</h1>
-    <p>
-      This webpage is currently under contruction
-      
-    </p>
+  <div class="internalnav">
+    <a class="nitem ntitle" id="bold" href="/">JB Fueston</a>
+    <span class="nrest">
+        <a class="nitem nhj" href="/about">About</a>
+        <a class="nitem nhj" href="/memes">Memes</a>
+    </span>
   </div>
 </template>
 
 <script>
 export default {
   name: 'index',
-  props: ['name']
+  props: []
 }
 </script>
 
