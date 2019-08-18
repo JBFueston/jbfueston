@@ -1,0 +1,27 @@
+// ryanwans.com
+// Blind Side Theme by Ryan Wans
+
+$primary: #18113d;
+$secondary: #538ac9;
+$accent: #63758a;
+$error: #ff6970;
+$success: #8ded80;
+$bg: #f2f2f2;
+$sbg: #e2e1e1;
+
+// GLOBALS
+#primary {color: $primary!important;}
+#secondary {color: $secondary!important;}
+#accent {color: $accent!important;}
+#error {color: $error!important;}
+#success {color: $success!important;}
+#sbg {color: $sbg!important;}
+#bold {font-weight: bolder!important;}
+#center {text-align: center!important;}
+#light {font-weight: 100!important;}
+#title {font-size: 3rem!important;}
+#desc {font-size: 2.2rem!important;}
+#con {font-size: 1.4rem!important;}
+
+// REUSABLE
+.reuse {color: $primary!important; padding-left: 15px; padding-right: 15px;}

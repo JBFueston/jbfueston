@@ -1,0 +1,17 @@
+$primary: #18113d;
+$secondary: #538ac9;
+$gophor: #5ac5e6;
+$accent: #63758a;
+$error: #ff6970;
+$success: #8ded80;
+$bg: #f2f2f2;
+
+html, head, body {
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400&display=swap');
+    font-family: Roboto, Open Sans, sans-serif!important;
+    background-color: $bg!important;
+}
+#app, [app] {
+    width: 100%;
+    height: 100%;
+}
