@@ -22,7 +22,7 @@ commit:
 	touch .change
 	echo "commit by makefile" >> .change
 	git add -A
-	git commit -m "Unspecified Changes by Makefile"
+	git commit -m "Unspecified Changes by Makefile" --no-verify
 	git push origin master:beta 
 	echo "-> Push Complete"
 
