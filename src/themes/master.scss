@@ -18,3 +18,7 @@ html, head, body {
     color: $primary;
     overflow: hidden;
 }
+
+// globals
+[error] {background-color: $error;}
+[success] {background-color: $success;}

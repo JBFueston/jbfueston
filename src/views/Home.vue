@@ -2,7 +2,6 @@
   <div class="home reuse">
     <navbar class="navbar" />
     <index name="JB Fueston"/>
-    <h3 id="secondary">Yeet</h3>
   </div>
 </template>
 
