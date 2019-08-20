@@ -4,6 +4,7 @@
     <p>
       This webpage is currently under contruction
     </p>
+    <img alt="yeet" class="yeetpic" src="../assets/yeet.jpeg" >
   </div>
 </template>
 
