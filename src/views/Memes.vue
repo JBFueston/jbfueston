@@ -2,7 +2,7 @@
   <div class="home reuse">
     <navbar class="navbar" />
     <stripe />
-    <about />
+    <meme />
     <foot />
   </div>
 </template>
@@ -15,14 +15,14 @@
 <script>
 // @ is an alias to /src
 import navbar from '@/components/navbar.vue';
-import about from '@/components/about.vue';
+import meme from '@/components/meme.vue';
 import stripe from '@/components/stripe.vue';
 import foot from '@/components/foot.vue';
 export default {
-  name: 'About',
+  name: 'Memes',
   components: {
     navbar,
-    about,
+    meme,
     stripe,
     foot
   }
