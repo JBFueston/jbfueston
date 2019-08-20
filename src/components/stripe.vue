@@ -1,17 +1,14 @@
 <template>
-  <div class="contentwrap">
-    <h1 id="light">{{ name }}</h1>
-    <p>
-      This webpage is currently under contruction
-      
-    </p>
+  <div class="str dropshadow">
+      <div class="sto"></div>
+      <div class="stt"></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index',
-  props: ['name']
+  name: 'stripe',
+  props: []
 }
 </script>
 

@@ -1,8 +1,7 @@
 <template>
   <div class="contentwrap">
-    <h1 id="light">{{ name }}</h1>
     <p>
-      This webpage is currently under contruction
+      This is the about page
       
     </p>
   </div>
@@ -10,8 +9,8 @@
 
 <script>
 export default {
-  name: 'index',
-  props: ['name']
+  name: 'about',
+  props: []
 }
 </script>
 

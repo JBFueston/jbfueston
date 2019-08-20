@@ -9,6 +9,8 @@ $error: #ff6970;
 $success: #8ded80;
 $bg: #f2f2f2;
 $sbg: #e6e6e6;
+$dbg: #333333;
+$dtc: #b8b6b6;
 
 // GLOBALS
 #primary {color: $primary!important;}
@@ -25,7 +27,7 @@ $sbg: #e6e6e6;
 #desc {font-size: 2.2rem!important;}
 #con {font-size: 1.4rem!important;}
 #nomarg {margin: 0;}
-a {text-decoration: none; color: $primary;}
+a {text-decoration: none; color: $primary!important;}
 a:hover {color: $faded;}
 
 // REUSABLE
@@ -33,9 +35,28 @@ a:hover {color: $faded;}
 .navbar {background-color: $bg!important; webkit-box-shadow: 0 6px 6px -6px #999;
     -webkit-box-shadow: 0 6px 6px -6px #999;
     box-shadow: 0 6px 6px -6px #999}
+.dropshadow {webkit-box-shadow: 0 8px 6px -6px #999;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;}
 .nitem {padding-right: 20px; font-size: 1.8rem; padding-top: 5px; text-align: right; left: 0;} 
 .ntitle {padding-left: 10px; left: 0; float: left;} 
 .nhj {font-size: 1.7rem!important;text-align: right; right: 0; position: relative; margin-top: 2px!important;}
 .nrest {text-align: right; right: 0!important; width: 50%; float: right!important; font-size: 1.4rem!important;}
-.hello {margin: 14px;}
+.contentwrap {margin: 14px;} #nhe {font-weight: bold!important; font-size: 1.4em!important; letter-spacing: 0.6px; padding-right: 20px!important; opacity: 1;} 
+#npt {font-size: 1.25em!important;} .str {width: 100%; height: 16px; opacity: 0.9;}
+.sto {width: 48%; height: 100%; float: left; background-color: $faded;} 
+.stt {width: 52%; height: 100%; float: right; background-color: $faded; border-top: 16px solid $secondary; border-left: 50px solid transparent;}
+.footer {width: 100%; height: 70px; background-color: $dbg; position: absolute; bottom: 0;}
+.upshadow {  box-shadow: 0px -10px 10px -4px grey;} 
+.icon {color: $sbg!important; padding-left: 20px; padding-top: 20px;}
+.mwl {width: 55%; height: 100%; float: right; right: 0; padding-right: 20px; text-align: right; padding-top: 24px; color: $dtc;}
+.heart {fill: red; width: 15px; height: auto;}
+.jusbegone {visibility: visible;}
+
+@media only screen and (max-width: 620px) {
+    .jusbegone {
+        visibility: hidden!important;
+    }
+}
+
 // OLD + SCRAP

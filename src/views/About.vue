@@ -2,8 +2,7 @@
   <div class="home reuse">
     <navbar class="navbar" />
     <stripe />
-    <index name="JB Fueston"/>
-    <foot />
+    <about />
   </div>
 </template>
 
@@ -14,18 +13,15 @@
 
 <script>
 // @ is an alias to /src
-import index from '@/components/index.vue';
 import navbar from '@/components/navbar.vue';
+import about from '@/components/about.vue';
 import stripe from '@/components/stripe.vue';
-import foot from '@/components/foot.vue';
-
 export default {
-  name: 'home',
+  name: 'About',
   components: {
-    index,
     navbar,
-    stripe,
-    foot,
+    about,
+    stripe
   }
 }
 </script>
