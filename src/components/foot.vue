@@ -7,7 +7,7 @@
     <a target="_blank" href="https://www.twitch.tv/jbfueston" class="fab fa-twitch icon fa-2x"></a>
     
     <div class="mwl jusbegone">
-      Made With &nbsp;<span id="spew"><img alt="heart" class="heart" src="../assets/octicon-heart.svg" /></span>&nbsp; by Ryan Wans & JB Fueston
+      Made With &nbsp;<span id="spew"><img alt="heart" class="heart" src="../assets/octicon-heart.svg" /></span>&nbsp; by <a id="dlink" target="_blank" href="https://ryanwans.com/">Ryan Wans</a>
     </div>
   </div>
 </template>

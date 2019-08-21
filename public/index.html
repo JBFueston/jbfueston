@@ -31,6 +31,8 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-138659816-3');
+      if(window.location.pathname==='/'){console.log("started");setTimeout(function(){$('#aaa').text("CONTENT LOAD FAILED");
+$('.ref').removeClass('lc').addClass('elc');}, 10000);console.log("ended")}
     </script>
 
     <style scoped lang="scss">
@@ -42,11 +44,16 @@
         top: 0; left: 0; padding: 0; margin: 0;
         font-weight: 300;
         width: 100%;
-    height: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        @if $limit {
+          overflow-y: hidden;
+        }
       }
       #app, [app] {
           width: 100%;
           height: 100%;
+          overflow-x: hidden;
       }
     </style>
   </head>

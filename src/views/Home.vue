@@ -2,7 +2,7 @@
   <div class="home reuse">
     <navbar class="navbar" />
     <stripe />
-    <index name="JB Fueston"/>
+    <index name="JB Fueston" dqoute="Mechanical and Electrical Engineer" />
     <foot />
   </div>
 </template>
