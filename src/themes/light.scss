@@ -12,9 +12,14 @@ $sbg: #e6e6e6;
 $dbg: #333333;
 $dtc: #b8b6b6;
 
+// COMPONENTS
+[vhleft] {left: 0; width: 2px; color: gray; height: 100%; z-index: 500; }
+[hr], hr {width: 50%; left: 0!important; text-align: left!important; align-content: left;}
+
 // GLOBALS
 #primary {color: $primary!important;}
 #secondary {color: $secondary!important;}
+.justify {text-align: justify;}
 #accent {color: $accent!important;}
 #error {color: $error!important;}
 #success {color: $success!important;}
@@ -68,7 +73,7 @@ a:hover {color: $faded;}
 .icon {color: $sbg!important; padding-left: 20px; padding-top: 20px;}
 .mwl {width: 55%; height: 100%; float: right; right: 0; padding-right: 20px; text-align: right; padding-top: 24px; color: $dtc;}
 .heart {fill: red; width: 15px; height: auto;}
-.jusbegone {visibility: visible;}
+.jusbegone {visibility: visible;} .prl {padding-right: 50px;}
 nav {padding-top: 3px; padding-bottom: 3px;}
 .formgat {width: 100%; height: 68%; padding-top: 50px; font-size: 1.5rem; overflow-wrap: break-word; background-image: linear-gradient(to bottom right, $faded, $secondary)}
 .noy {overflow-y: hidden!important; overflow: hidden;}
@@ -84,4 +89,5 @@ nav {padding-top: 3px; padding-bottom: 3px;}
 // OLD + SCRAP
 .ctitle {font-size: 4.2rem; font-weight: 300; padding-top: 10%;} #dlink {color: $sbg!important; font-weight: bold;} 
 .cdesc {font-size: 1.8rem; font-weight: 300;} .lc {width: 100%; padding-top: 100px; color: $accent!important;}
-.elc {width: 100%; padding-top: 100px; color: $error!important;}
+.elc {width: 100%; padding-top: 100px; color: $error!important;} .dtitle {font-size: 3rem; font-weight: 300;}
+.dcont {font-weight: 200; font-size: 1.6rem; letter-spacing: 0.7px;} #ccd {font-weight: 300;}
