@@ -1,6 +1,6 @@
 <template>
   <div class="contentwrap justify prl">
-    <h1 class="dtitle" id="">
+    <h1 class="dtitle" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300" id="">
       <div vhleft />
       I'm JB Fueston,<br>And I Like To Make Stuff.
       </h1><br><br>

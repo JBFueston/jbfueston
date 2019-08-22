@@ -1,5 +1,5 @@
 <template>
-  <div class="footer upshadow">
+  <div class="footer upshadow" >
     <a target="_blank" href="https://snapchat.com/add/jbfueston" class="fab fa-snapchat icon icos fa-2x"></a>
     <a target="_blank" href="https://discordapp.com/channels/@me?username=jbfueston#1704" class="fab fa-discord icon fa-2x"></a>
     <a target="_blank" href="https://www.instagram.com/jbfueston/" class="fab fa-instagram icon fa-2x"></a>

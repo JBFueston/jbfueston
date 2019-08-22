@@ -11,6 +11,9 @@
 <script src="./assets/presc.js"></script>
 <script lang="ts">
 export default {
-  name: 'App'
+  name: 'App',
+  created() {
+    AOS.init();
+  }
 }
 </script>

@@ -5,6 +5,8 @@
  * (C) 2019 Ryan Wans of ryanwans.com
  */
 
+/* eslint-disable */
+
 function log(mes, level) {console[level]('%c[RWAPI] '+mes, 'color: blue;');}
 
 // DevDet (Device Determination)

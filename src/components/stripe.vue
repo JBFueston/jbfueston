@@ -1,5 +1,5 @@
 <template>
-  <div class="str dropshadow">
+  <div class="str dropshadow" >
       <div class="sto"></div>
       <div class="stt"></div>
   </div>

@@ -4,7 +4,7 @@
     <h4 class="cdesc floating" id="center">
       {{ dqoute }}
     </h4><br><br><br>
-    <h4 class="cdesc" id="center">
+    <h4 data-aos="fade-up" data-aos-duration="1100" data-aos-delay="800" class="cdesc" id="center">
       Random Quote: <br><br>"<span id="qotd" v-html="qq">{{ qq }}</span>"
     </h4>
 
