@@ -43,8 +43,8 @@ export function qwet() {
     'Getting money on your birthday is the real life version of \'collect 200 as you pass go\'',
     'Have we checked all food to see if exploding them makes them into something better or did we just stop with corn?',
     'If you are a twin, one of you was 100% unplanned', '\'What happens in Vegas stays in Vegas\' doesn\'t apply to STDs.',
-    'It must be awful for giraffes to throw up.', 'Volleyball is advanced hot potato.', 'We‘d all be very healthy if we couldn‘t taste food.',
-    'JB Likes Men'];
+    'It must be awful for giraffes to throw up.', 'Volleyball is advanced hot potato.', 
+    'We‘d all be very healthy if we couldn‘t taste food.', 'JB Likes Men'];
     const gr = function(){var ii=0, a=q.length; return Math.floor(Math.random() * (+a - +ii)) + +ii;}
     return q[gr()];
 }

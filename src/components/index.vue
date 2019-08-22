@@ -5,7 +5,7 @@
       {{ dqoute }}
     </h4><br><br><br>
     <h4 class="cdesc" id="center">
-      Random Qoute: <br><br>"<span id="qotd" v-html="qq">{{ qq }}</span>"
+      Random Quote: <br><br>"<span id="qotd" v-html="qq">{{ qq }}</span>"
     </h4>
 
     <!--

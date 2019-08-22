@@ -52,7 +52,7 @@ a:hover {color: $faded;}
 
     @keyframes floating {
         from { transform: translate(0,  0px); }
-        40%  { transform: translate(0, -30px); }
+        40%  { transform: translate(0, -20px); }
         to   { transform: translate(0, -0px); }    
     }
 .nitem {padding-right: 20px; font-size: 1.8rem; padding-top: 5px; text-align: right; left: 0;} 
