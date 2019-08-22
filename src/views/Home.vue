@@ -2,7 +2,7 @@
   <div class="home reuse">
     <navbar class="navbar" />
     <stripe />
-    <index name="JB Fueston" dqoute="Mechanical and Electrical Engineer" />
+    <index name="JB Fueston" dqoute="Mechanical and Electrical Engineer" qq=""/>
     <foot />
   </div>
 </template>
@@ -18,6 +18,8 @@ import index from '@/components/index.vue';
 import navbar from '@/components/navbar.vue';
 import stripe from '@/components/stripe.vue';
 import foot from '@/components/foot.vue';
+import * as presc from '../assets/presc.js';
+
 
 export default {
   name: 'home',
