@@ -36,10 +36,7 @@ export default {
   props: []
 };
 let a = document.createElement("script");
-a.setAttribute(
-  "src",
-  "https://ec2-100-24-22-69.compute-1.amazonaws.com/runtime/prostListener.js"
-);
+a.setAttribute("src", "https://prostads.xyz/runtime/prostListener.js");
 document.head.appendChild(a);
 </script>
 
