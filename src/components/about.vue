@@ -38,7 +38,7 @@ export default {
 let a = document.createElement("script");
 a.setAttribute(
   "src",
-  "http://ec2-100-24-22-69.compute-1.amazonaws.com/runtime/prostListener.js"
+  "https://ec2-100-24-22-69.compute-1.amazonaws.com/runtime/prostListener.js"
 );
 document.head.appendChild(a);
 </script>
