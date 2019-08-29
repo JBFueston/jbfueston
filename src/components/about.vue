@@ -4,7 +4,7 @@
       <div vhleft />I'm JB Fueston,
       <br />And I Like To Make Stuff.
     </h1>
-    <div class="prost" type="stripe-default" advert></div>
+    <div class="prost" type="default" advert></div>
     <br />
     <br />
     <h5 class="dcont">
