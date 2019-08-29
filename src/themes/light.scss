@@ -13,81 +13,285 @@ $dbg: #333333;
 $dtc: #b8b6b6;
 
 // COMPONENTS
-[vhleft] {left: 0; width: 2px; color: gray; height: 100%; z-index: 500; }
-[hr], hr {width: 50%; left: 0!important; text-align: left!important; align-content: left;}
+[vhleft] {
+	left: 0;
+	width: 2px;
+	color: gray;
+	height: 100%;
+	z-index: 500;
+}
+[hr],
+hr {
+	width: 50%;
+	left: 0 !important;
+	text-align: left !important;
+	align-content: left;
+}
 
 // GLOBALS
-#primary {color: $primary!important;}
-#secondary {color: $secondary!important;}
-.justify {text-align: justify;}
-#accent {color: $accent!important;}
-#error {color: $error!important;}
-#success {color: $success!important;}
-#sbg {color: $sbg!important;}
-#bold {font-weight: bolder!important;}
-#center, [center] {text-align: center!important;}
-#right, [right] {text-align: right!important;}
-#light {font-weight: 200!important;}
-#title {font-size: 3rem!important;}
-#desc {font-size: 2.2rem!important;}
-#con {font-size: 1.4rem!important;}
-#nomarg {margin: 0;}
-#tva {padding-top: 20%;}
-a {text-decoration: none; color: $primary!important;}
-a:hover {color: $faded;}
-#qotd {color: $faded!important;}
+#primary {
+	color: $primary !important;
+}
+#secondary {
+	color: $secondary !important;
+}
+.justify {
+	text-align: justify;
+}
+#accent {
+	color: $accent !important;
+}
+#error {
+	color: $error !important;
+}
+#success {
+	color: $success !important;
+}
+#sbg {
+	color: $sbg !important;
+}
+#bold {
+	font-weight: bolder !important;
+}
+#center,
+[center] {
+	text-align: center !important;
+}
+#right,
+[right] {
+	text-align: right !important;
+}
+#light {
+	font-weight: 200 !important;
+}
+#title {
+	font-size: 3rem !important;
+}
+#desc {
+	font-size: 2.2rem !important;
+}
+#con {
+	font-size: 1.4rem !important;
+}
+#nomarg {
+	margin: 0;
+}
+#tva {
+	padding-top: 20%;
+}
+a {
+	text-decoration: none;
+	color: $primary !important;
+}
+a:hover {
+	color: $faded;
+}
+#qotd {
+	color: $faded !important;
+}
 
 // REUSABLE
-.reuse {color: $primary!important; height: 100%; width: 100%;}
-.navbar {background-color: $bg!important;
-    -webkit-box-shadow: 0 6px 6px -6px #999;
-    box-shadow: 0 6px 6px -6px #999}
+.reuse {
+	color: $primary !important;
+	height: 100%;
+	width: 100%;
+}
+.navbar {
+	background-color: $bg !important;
+	-webkit-box-shadow: 0 6px 6px -6px #999;
+	box-shadow: 0 6px 6px -6px #999;
+}
 .dropshadow {
-    -webkit-box-shadow: 0 8px 4px -5px #999;
-    box-shadow: 0 8px 4px -5px #999;}
-    .floating {  
-        top: 0;
-        bottom: 100%;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-fill-mode: forwards;
-    }
+	-webkit-box-shadow: 0 8px 4px -5px #999;
+	box-shadow: 0 8px 4px -5px #999;
+}
+.floating {
+	top: 0;
+	bottom: 100%;
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
 
-    @keyframes floating {
-        from { transform: translate(0,  0px); }
-        40%  { transform: translate(0, -20px); }
-        to   { transform: translate(0, -0px); }    
-    }
-.nitem {padding-right: 20px; font-size: 1.8rem; padding-top: 5px; text-align: right; left: 0;} 
-.ntitle {padding-left: 10px; left: 0; float: left;} 
-.nhj {font-size: 1.7rem!important;text-align: right; right: 0; position: relative; margin-top: 2px!important;}
-.nrest {text-align: right; right: 0!important; width: 50%; float: right!important; font-size: 1.4rem!important;}
-.contentwrap {margin: 20px; padding-right: 40px; width: 100%; height: auto;} #nhe {font-weight: bold!important; font-size: 1.4em!important; letter-spacing: 0.6px; padding-right: 20px!important; opacity: 1;} 
-#npt {font-size: 1.25em!important; padding-right: 18px!important;} .str {width: 100%; height: 14px; opacity: 0.9; position: static;}
-.sto {width: 48%; height: 100%; float: left; background-color: $faded;} 
-.stt {width: 52%; height: 100%; float: right; background-color: $faded; border-top: 14px solid $secondary; border-left: 50px solid transparent;}
-.footer {width: 100%; height: 70px; background-color: $dbg; position: fixed; bottom: 0;}
-.upshadow {  box-shadow: 0px -10px 10px -4px grey;} 
-.icon {color: $sbg!important; padding-left: 20px; padding-top: 20px;}
-.mwl {width: 55%; height: 100%; float: right; right: 0; padding-right: 20px; text-align: right; padding-top: 24px; color: $dtc;}
-.heart {fill: red; width: 15px; height: auto;}
-.jusbegone {visibility: visible;} .prl {padding-right: 50px;}
-nav {padding-top: 3px; padding-bottom: 3px;}
-.formgat {width: 100%; height: 68%; padding-top: 50px; font-size: 1.5rem; overflow-wrap: break-word; background-image: linear-gradient(to bottom right, $faded, $secondary)}
-.noy {overflow-y: hidden!important; overflow: hidden;}
+@keyframes floating {
+	from {
+		transform: translate(0, 0px);
+	}
+	40% {
+		transform: translate(0, -20px);
+	}
+	to {
+		transform: translate(0, -0px);
+	}
+}
+.nitem {
+	padding-right: 20px;
+	font-size: 1.8rem;
+	padding-top: 5px;
+	text-align: right;
+	left: 0;
+}
+.ntitle {
+	padding-left: 10px;
+	left: 0;
+	float: left;
+}
+.nhj {
+	font-size: 1.7rem !important;
+	text-align: right;
+	right: 0;
+	position: relative;
+	margin-top: 2px !important;
+}
+.nrest {
+	text-align: right;
+	right: 0 !important;
+	width: 50%;
+	float: right !important;
+	font-size: 1.4rem !important;
+}
+.contentwrap {
+	margin: 20px;
+	padding-right: 40px;
+	width: 100%;
+	height: auto;
+}
+#nhe {
+	font-weight: bold !important;
+	font-size: 1.4em !important;
+	letter-spacing: 0.6px;
+	padding-right: 20px !important;
+	opacity: 1;
+}
+#npt {
+	font-size: 1.25em !important;
+	padding-right: 18px !important;
+}
+.str {
+	width: 100%;
+	height: 14px;
+	opacity: 0.9;
+	position: static;
+}
+.sto {
+	width: 48%;
+	height: 100%;
+	float: left;
+	background-color: $faded;
+}
+.stt {
+	width: 52%;
+	height: 100%;
+	float: right;
+	background-color: $faded;
+	border-top: 14px solid $secondary;
+	border-left: 50px solid transparent;
+}
+.footer {
+	width: 100%;
+	height: 70px;
+	background-color: $dbg;
+	position: fixed;
+	bottom: 0;
+}
+.upshadow {
+	box-shadow: 0px -10px 10px -4px grey;
+}
+.icon {
+	color: $sbg !important;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.mwl {
+	width: 55%;
+	height: 100%;
+	float: right;
+	right: 0;
+	padding-right: 20px;
+	text-align: right;
+	padding-top: 24px;
+	color: $dtc;
+}
+.heart {
+	fill: red;
+	width: 15px;
+	height: auto;
+}
+.jusbegone {
+	visibility: visible;
+}
+.prl {
+	padding-right: 50px;
+}
+nav {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.formgat {
+	width: 100%;
+	height: 68%;
+	padding-top: 50px;
+	font-size: 1.5rem;
+	overflow-wrap: break-word;
+	background-image: linear-gradient(to bottom right, $faded, $secondary);
+}
+.noy {
+	overflow-y: hidden !important;
+	overflow: hidden;
+}
 
 @media only screen and (max-width: 620px) {
-    .jusbegone {
-        visibility: hidden!important;
-    }
+	.jusbegone {
+		visibility: hidden !important;
+	}
 }
 
 // !! most of this was done at 3 in the morning so excuse all or any bugs
 
 // OLD + SCRAP
-.ctitle {font-size: 4.2rem; font-weight: 300; padding-top: 10%;} #dlink {color: $sbg!important; font-weight: bold;} 
-.cdesc {font-size: 1.8rem; font-weight: 300;} .lc {width: 100%; padding-top: 100px; color: $accent!important;}
-.elc {width: 100%; padding-top: 100px; color: $error!important;} .dtitle {font-size: 3rem; font-weight: 300;}
-.dcont {font-weight: 200; font-size: 1.6rem; letter-spacing: 0.7px;} #ccd {font-weight: 300;}
+.ctitle {
+	font-size: 4.2rem;
+	font-weight: 300;
+	padding-top: 10%;
+}
+#dlink {
+	color: $sbg !important;
+	font-weight: bold;
+}
+.cdesc {
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+.lc {
+	width: 100%;
+	padding-top: 100px;
+	color: $accent !important;
+}
+.elc {
+	width: 100%;
+	padding-top: 100px;
+	color: $error !important;
+}
+.dtitle {
+	font-size: 3rem;
+	font-weight: 300;
+	width: 70%;
+	float: left;
+}
+.dcont {
+	font-weight: 200;
+	font-size: 1.6rem;
+	letter-spacing: 0.7px;
+	float: left;
+	padding-top: 60px;
+}
+#ccd {
+	font-weight: 300;
+}
+
+[advert] {
+	float: right;
+	margin-right: 20px;
+}
