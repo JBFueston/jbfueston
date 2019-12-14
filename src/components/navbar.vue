@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav navbar-right" >
           <a class="nav-item nav-link" id="npt" href="/about">About</a>
-          <a class="nav-item nav-link" id="npt" href="/memes">Memes</a>
+          <a class="nav-item nav-link" id="npt" href="/games">Games</a>
           <a class="nav-item nav-link" id="npt" href="mailto:jbfueston@gmail.com?Subject=Hello%20JB">Contact</a>
         </div>
       </div>
