@@ -1,7 +1,8 @@
 <template>
   <div class="contentwrap">
     <p>
-      This is the meme page
+      This is where the games will be located once they are complete. <br>
+      While you're here, follow me on Instagram and Twitter @jbfueston
       
     </p>
   </div>
