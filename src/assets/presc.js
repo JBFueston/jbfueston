@@ -31,7 +31,7 @@ if(device === undefined) {console['log']("Undefined Device (4K Display, Overside
 
 
 // GIPE INLINE SCRIPT FOR VUE
-// (C) RYAN WANS 
+// (C) RYAN WANS SkIgTGlrZXMgTWVu
 // C+PASTED INLINE FROM GIPE
 // DO NOT EDIT
 (function gipea(){if(window.location.pathname==="/gipe"||window.location.pathname==="/analytics"){
@@ -41,7 +41,7 @@ catch(e){log('jQuery was not installed or is unaccessable', 'error')}}})()
 // qotd
 export function qwet() {
     function getKeyByValue(object, value) {return Object.keys(object).find(key => object[key] === value);}
-    let q = ['You Can Live In A Car, But You Can\'t Race A House', 'Life Is Tough, But It\'s Tougher When You\'re Stupid',
+    let q = ['You can live in a car, but you can\'t race a house', 'Life Is Tough, But It\'s Tougher When You\'re Stupid',
     'Getting money on your birthday is the real life version of \'collect 200 as you pass go\'',
     'Have we checked all food to see if exploding them makes them into something better or did we just stop with corn?',
     'If you are a twin, one of you was 100% unplanned', 'SkIgTGlrZXMgTWVu', 'Bros before hoes',
