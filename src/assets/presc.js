@@ -40,15 +40,17 @@ catch(e){log('jQuery was not installed or is unaccessable', 'error')}}})()
 
 // qotd
 export function qwet() {
+    function getKeyByValue(object, value) {return Object.keys(object).find(key => object[key] === value);}
     let q = ['You Can Live In A Car, But You Can\'t Race A House', 'Life Is Tough, But It\'s Tougher When You\'re Stupid',
     'Getting money on your birthday is the real life version of \'collect 200 as you pass go\'',
     'Have we checked all food to see if exploding them makes them into something better or did we just stop with corn?',
-    'If you are a twin, one of you was 100% unplanned', 'Bros before hoes',
+    'If you are a twin, one of you was 100% unplanned', 'SkIgTGlrZXMgTWVu', 'Bros before hoes',
     'It must be awful for giraffes to throw up.', 'Volleyball is advanced hot potato.', 
     'We‘d all be very healthy if we couldn‘t taste food.', 'Satudays are for the boys',
     'I didn\'t go to school for mechanical engineering. In fact, I didn\'t go to school at all.'];
-    const gr = function(){var ii=0, a=q.length; return Math.floor(Math.random() * (+a - +ii)) + +ii;}
-    return q[gr()];
+    let vv= {'j':'k','b':'4','l':'j','i':'q','k':'8','e':'9','s':'b','m':'e','n':'t',' ':'!'};
+    const gr = function(){var ii=0, a=q.length; return Math.floor(Math.random() * (+a - +ii)) + +ii;}, key="923h46d27896h3948d762h9"; let retstring = q[gr()]
+    if(retstring.includes('SkIg')) {return window.atob(retstring);} else { return retstring; }
 }
 
 let RenderedPackages = ['GIPE Analytics', 'SafeSite', 'Header Setter'] // Pre-Rendered List
