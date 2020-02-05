@@ -44,7 +44,7 @@ export function qwet() {
     let q = ['You Can Live In A Car, But You Can\'t Race A House', 'Life Is Tough, But It\'s Tougher When You\'re Stupid',
     'Getting money on your birthday is the real life version of \'collect 200 as you pass go\'',
     'Have we checked all food to see if exploding them makes them into something better or did we just stop with corn?',
-    'If you are a twin, one of you was 100% unplanned', 'SkIgTGlrZXMgTWVu', 'Bros before hoes',
+    'If you are a twin, one of you was 100% unplanned', 'S//kIgTGlrZXMgTWVu', 'Bros before hoes',
     'It must be awful for giraffes to throw up.', 'Volleyball is advanced hot potato.', 
     'We‘d all be very healthy if we couldn‘t taste food.', 'Satudays are for the boys',
     'I didn\'t go to school for mechanical engineering. In fact, I didn\'t go to school at all.'];
